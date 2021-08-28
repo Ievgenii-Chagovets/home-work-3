@@ -122,10 +122,8 @@ ul {
 }
 .heroe {
   background-color: var(--second-title-color);
-  margin-bottom: 94px;
   flex-grow: 1;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .heroe-text {
@@ -137,6 +135,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-top: 200px;
 }
 .button-section {
   font-family: "Roboto";
@@ -159,6 +158,7 @@ ul {
 }
 
 .our-characteristics {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .characteristics-list {
@@ -177,6 +177,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  padding-bottom: 10px;
 }
 .characteristics-text {
   font-family: "Roboto";
@@ -188,7 +189,7 @@ ul {
 }
 .what-we-are-doing {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .what-we-are-doing-text {
   font-family: "Roboto";
@@ -214,6 +215,8 @@ ul {
 .our-team {
   background-color: #f5f4fa;
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-team-text {
   font-family: "Roboto";
@@ -229,13 +232,15 @@ ul {
   margin: 0 auto;
   position: relative;
   margin-bottom: 50px;
-  margin-top: 94px;
 }
 .our-team-list {
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 94px;
+}
+.team-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .our-team-item:not(:last-child) {
   margin-right: 30px;
@@ -251,8 +256,8 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   display: flex;
-  padding: 30px 59px 10px 59px;
   justify-content: center;
+  padding-bottom: 10px;
 }
 .our-team-job {
   font-family: "Roboto";
@@ -266,8 +271,7 @@ ul {
 }
 .logo-footer {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .adress-text {
   font-family: "Roboto";
@@ -277,11 +281,13 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .footer-section {
   font-family: "Roboto";
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-contact {
   font-family: "Roboto";
@@ -290,17 +296,12 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .adress-item:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
-.footer-contact:not(:last-child) {
-  padding-bottom: 9px;
-}
-.adress-item:last-child {
-  padding-bottom: 60px;
-}
+
 .logo-footer {
   font-family: "Oleo Script", cursive;
   font-family: "Raleway", sans-serif;
