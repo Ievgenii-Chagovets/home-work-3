@@ -131,10 +131,9 @@ ul {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background-color: #f5f4fa;
-  width: 128px;
-  height: 38px;
   border: 0px;
   border-radius: 4px;
+  padding: 5.89px 22.4px 5.89px 22.4px;
 }
 .button-list {
   display: flex;

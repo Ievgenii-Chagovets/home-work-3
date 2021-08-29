@@ -108,7 +108,6 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  margin-right: 215px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -124,6 +123,7 @@ ul {
   background-color: var(--second-title-color);
   flex-grow: 1;
   padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .heroe-text {
@@ -135,7 +135,6 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 200px;
 }
 .button-section {
   font-family: "Roboto";
